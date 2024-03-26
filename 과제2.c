@@ -5,16 +5,16 @@ int main(void) {
     char str[20];
     int length = 0;
 
-    printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä. ");
+    printf("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš”. ");
     scanf("%s", str);
-    printf("ÀÔ·ÂµÈ ¹®ÀÚ¿­Àº %s ÀÔ´Ï´Ù.\n", str);
+    printf("ì…ë ¥ëœ ë¬¸ìì—´ì€ %s ì…ë‹ˆë‹¤.\n", str);
 
    
     while (str[length] != '\0') {
         length++;
     }
 
-    printf("ÀÔ·ÂµÈ ¹®ÀÚ¿­ÀÇ ±æÀÌ %d", length);
+    printf("ì…ë ¥ëœ ë¬¸ìì—´ì˜ ê¸¸ì´ %d", length);
 
     return 0;
 }
